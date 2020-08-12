@@ -1,6 +1,7 @@
 // chapter4.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+
 #include <iostream>
 using namespace std;
 
@@ -69,21 +70,73 @@ using namespace std;
 
 // 9. 设计并测试一个名为Rectangle的矩形类，其属性为矩形的左下角与右上角两个点
 //    的坐标，根据坐标能计算矩形的面积。
-class Rectangle {
-public:
-    int getarea(int width, int height);
-private:
-    int xaxis, yaxis;
-};
+//class Rectangle {
+//public:
+//    int getarea(int width, int height);
+//private:
+//    int xaxis, yaxis;
+//};
+//
+//int Rectangle::getarea(int width, int height) {
+//    xaxis = width;
+//    yaxis = height;
+//    int area = width * height;
+//}
+//
+//int main() {
+//    int coord1[2] = { 1, 2 };
+//    int coord2[2] = { 6, 3 };
+//
+//}
 
-int Rectangle::getarea(int width, int height) {
-    xaxis = width;
-    yaxis = height;
-    int area = width * height;
-}
+// 10. 设计一个用于人事管理的人员类。
+//class People {
+//public:
+//    void record(int id, string name, bool gender, int personid);
+//    People(int id = 0, string name = "a", bool gender = 1, int persoid = 0) {
+//        id = id;
+//        name = name;
+//        gender = gender;
+//        personid = personid;
+//    }
+//
+//private:
+//    int id;
+//
+//    string name;
+//    bool gender;
+//    int personid;
+//    Date birthdate;
+//};
+//
+//void People::record(int id, string name, bool genger, int personid){
+//}
+//
+//
+//
+//class Date {
+//public:
+//    Date(int year, int month, int day) {
+//        year = year;
+//        month = month;
+//        day = day;
+//    }
+//    int birthday(int year, int month, int day) {
+//        int birthdaydate = year * 10000 + month * 100 + day;
+//        cout << "birthday date is: " << birthdaydate << endl;
+//        return birthdaydate;
+//    }
+//
+//private:
+//    int year, mounth, day;
+//};
+//
+//int main() {
+//    Date Amybirthdate(1992, 6, 4);
+//    int amybirthday = Amybirthdate.birthday(1992, 6, 4);
+//    People Amy(1, "Amy", false, 1111);
+//    People Bob(2, "Bob", true, 2222);
+//
+//}
 
-int main() {
-    int coord1[2] = { 1, 2 };
-    int coord2[2] = { 6, 3 };
-
-}
+//

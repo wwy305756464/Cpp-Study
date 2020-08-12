@@ -1,2 +1,2 @@
 ﻿  chapter4.cpp
-  chapter4.vcxproj -> C:\Users\Wenyue Wang\Desktop\Summer 2020\Cpp Study\book exercise\chapter4\Debug\chapter4.exe
+C:\Users\Wenyue Wang\Desktop\Summer 2020\Cpp Study\book_exercise\chapter4\chapter4\chapter4.cpp(84): error C4716: 'Rectangle::getarea': must return a value
